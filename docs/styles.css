@@ -1,0 +1,194 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#container {
+  display: flex;
+}
+
+#content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Sidebar */
+#sidebar {
+  width: auto;
+  min-width: 250px;
+  height: 100vh;
+  background-color: #333;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar ul li {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#sidebar ul li:hover {
+  background-color: #555;
+}
+
+#sidebar ul li a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a .icon {
+  width: 24px;
+  text-align: center;
+}
+
+#sidebar ul li a .label {
+  margin-left: 10px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* Sidebar header */
+#sidebar-header {
+  padding: 15px;
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#sidebar-home-link {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#sidebar-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#sidebar-header h3 {
+  margin-left: 10px;
+}
+
+/* Main content */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+}
+
+header h1 {
+  font-family: "Roboto", sans-serif;
+  color: #007BFF;
+}
+
+header p {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+/* Hero Section */
+#hero {
+  background-color: #eee;
+  text-align: center;
+  padding: 50px;
+}
+
+#hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* About Me Section */
+#about-me {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contact-form, #contact-info {
+  flex: 1;
+}
+
+#contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+#contact-info ul li {
+  padding: 8px;
+  font-size: 23px;
+}
+
+#contact-info ul li a {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+#social-icons ul {
+  list-style-type: none;
+}
+
+/* Style each list item */
+#social-icons ul li {
+  padding: 10px;
+}
+
+/* Style the anchor tags within list items */
+#social-icons ul li a {
+  font-size: 24px; /* Increase the font-size */
+  padding: 8px;   /* Add a little padding */
+  text-decoration: none;
+}
+
+/* Style the Font Awesome icons */
+#social-icons ul li a i {
+  margin-right: 10px;
+}
+
+/* Hover effect */
+#social-icons ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}

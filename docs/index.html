@@ -2,95 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jeff Weber's Portfolio</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Jeff Weber - Cybersecurity, DevSecOps, Software Development</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#home">Jeff Weber</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#homelab">Homelab</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#github">GitHub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#future-projects">Future Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <div id="container">
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <a href="index.html" id="sidebar-home-link">
+          <img src="assets/profile_picture.jpg" alt="Jeff Weber">
+          <h3>Jeff Weber</h3>
+        </a>
       </div>
-    </div>
-  </nav>
+      <nav>
+        <ul>
+          <li><a href="#current-projects"><div class="icon"><i class="fas fa-project-diagram"></i></div><div class="label">Current Projects</div></a></li>
+          <li><a href="#future-projects"><div class="icon"><i class="fas fa-rocket"></i></div><div class="label">Future Projects</div></a></li>
+          <li><a href="#homelab"><div class="icon"><i class="fas fa-laptop-code"></i></div><div class="label">Homelab</div></a></li>
+          <li><a href="#resume"><div class="icon"><i class="fas fa-file-alt"></i></div><div class="label">Resume</div></a></li>
+        </ul>
+        
+      </nav>
+    </aside>
+    <main id="content">
+      <!-- Hero Section -->
+      <section id="hero">
+        <img src="assets/profile_picture.jpg" alt="Jeff Weber" id="hero-image">
+        <h1>Jeff Weber</h1>
+        <p>Cybersecurity | DevSecOps | Software Development</p>
+      </section>
 
+      <!-- About Me Section -->
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p id="about-me-section"></p>
+      </section>
 
-  <!-- Home Section -->
-  <section id="home">
-    <!-- Your content -->
-  </section>
+      <!-- Contact Section -->
+      <section id="contact">
+        <div id="contact-form">
+          <!-- Contact Form -->
+          <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
 
-  <!-- About Me Section -->
-  <section id="about-me">
-    <!-- Your content -->
-  </section>
+        <div id="contact-info">
+          <ul>
+            <li><i class="fas fa-phone"></i><a href="tel:+1 (716) 807-1582"> +1 (716) 807-1582</a></li>
+            <li><i class="fas fa-envelope"></i><a href="mailto:jeff.weber.mail@gmail.com"> jeff.weber.mail@gmail.com</a></li>
+            <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/eodweber/"> LinkedIn</a></li>
+            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/EODweber"> Facebook</a></li>
+            <li><i class="fab fa-github"></i><a href="https://github.com/eodweber"> GitHub</a></li>
+          </ul>
+        </div>
+      </section>
 
-  <!-- Resume Section -->
-  <section id="resume">
-    <!-- Your content -->
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <!-- Your content -->
-  </section>
-
-  <!-- Homelab Section -->
-  <section id="homelab">
-    <!-- Your content -->
-  </section>
-
-  <!-- GitHub Section -->
-  <section id="github">
-    <!-- Your content -->
-  </section>
-
-  <!-- Future Projects Section -->
-  <section id="future-projects">
-    <!-- Your content -->
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <!-- Your content -->
-  </section>
-
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
