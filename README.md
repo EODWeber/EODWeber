@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🌱 I’m currently learning about the crypto space. I purchased my first NFT and am working on my first crypto domain linked website!
+🌱 I’m currently learning about the AI/ML space. My goal is to shift from SOC and DevSecOps into AI Security.
